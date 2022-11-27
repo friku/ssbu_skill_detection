@@ -1,2 +1,4 @@
 python detect.py --source ../ssbu/test_all.mp4 --weights ./runs/train/ssbu_zelda_skill_stage2/weights/best.pt --conf 0.4
 python detect.py --source ../ssbu/test_all.mp4 --weights ./runs/train/ssbu_zelda_skill_1_2_frame2/weights/best.pt --conf 0.4
+
+python detect.py --source ../ssbu/RKXKHYYJ.mp4 --weights ./runs/train/ssbu_zelda_skill_1_2_frame2/weights/best.pt --conf 0.4 --save_txt
