@@ -1,0 +1,35 @@
+{
+	"[python]": {
+		"editor.tabSize": 4,
+		"editor.formatOnSave": true,
+		"editor.formatOnPaste": false,
+		"editor.formatOnType": false,
+		"editor.insertSpaces": true,
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": true
+		},
+	},
+	"python.envFile": "${workspaceFolder}/.env",
+	"python.linting.enabled": true,
+	"python.linting.pylintEnabled": false,
+	"python.linting.pycodestyleEnabled": false,
+	"python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=150",
+        "--ignore=E402,F841,F401,E302,E305,E722,E203",
+    ],
+    "python.linting.mypyArgs": [
+        "--follow-imports=silent",
+        "--ignore-missing-imports=True",
+        "--show-column-numbers",
+        "--no-pretty"
+    ],
+	"python.formatting.provider": "black",
+	"python.formatting.blackArgs": ["--line-length=150"],
+	"python.linting.mypyEnabled": true,
+	"autoDocstring.docstringFormat": "numpy",
+	"editor.fontSize": 12,
+	"editor.accessibilitySupport": "auto",
+	"editor.wordWrap": "off",
+	"files.autoSave": "afterDelay"
+}
